@@ -79,7 +79,7 @@
 	//example of creating (saving) new contribution receipt (uses examples above)
 	/*
 	//fetch new contribution receipt model from F1 API
-	$model = $f1->contributionReceiptModel;
+	$model = $f1->getContributionReceiptModel;
 	
 	//set attributes of new contribution receipt
 	$model['contributionReceipt']['fund']['@id'] = (int) $onlineGivingFundId;
